@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		DEA854ED2867950D003BFE06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA854EC2867950D003BFE06 /* AppDelegate.swift */; };
 		DEA854EF2867950D003BFE06 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA854EE2867950D003BFE06 /* SceneDelegate.swift */; };
-		DEA854F12867950D003BFE06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA854F02867950D003BFE06 /* ViewController.swift */; };
+		DEA854F12867950D003BFE06 /* AmiiboListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA854F02867950D003BFE06 /* AmiiboListVC.swift */; };
 		DEA854F42867950D003BFE06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA854F22867950D003BFE06 /* Main.storyboard */; };
 		DEA854F628679510003BFE06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA854F528679510003BFE06 /* Assets.xcassets */; };
 		DEA854F928679510003BFE06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA854F728679510003BFE06 /* LaunchScreen.storyboard */; };
+		DEA8550128679630003BFE06 /* AmiiboAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA8550028679630003BFE06 /* AmiiboAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DEA854E92867950D003BFE06 /* Fetch Api Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fetch Api Study.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEA854EC2867950D003BFE06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEA854EE2867950D003BFE06 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DEA854F02867950D003BFE06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEA854F02867950D003BFE06 /* AmiiboListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmiiboListVC.swift; sourceTree = "<group>"; };
 		DEA854F32867950D003BFE06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DEA854F528679510003BFE06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEA854F828679510003BFE06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEA854FA28679510003BFE06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA8550028679630003BFE06 /* AmiiboAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmiiboAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				DEA854EC2867950D003BFE06 /* AppDelegate.swift */,
 				DEA854EE2867950D003BFE06 /* SceneDelegate.swift */,
-				DEA854F02867950D003BFE06 /* ViewController.swift */,
+				DEA854F02867950D003BFE06 /* AmiiboListVC.swift */,
 				DEA854F22867950D003BFE06 /* Main.storyboard */,
 				DEA854F528679510003BFE06 /* Assets.xcassets */,
 				DEA854F728679510003BFE06 /* LaunchScreen.storyboard */,
 				DEA854FA28679510003BFE06 /* Info.plist */,
+				DEA8550028679630003BFE06 /* AmiiboAPI.swift */,
 			);
 			path = "Fetch Api Study";
 			sourceTree = "<group>";
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEA854F12867950D003BFE06 /* ViewController.swift in Sources */,
+				DEA854F12867950D003BFE06 /* AmiiboListVC.swift in Sources */,
+				DEA8550128679630003BFE06 /* AmiiboAPI.swift in Sources */,
 				DEA854ED2867950D003BFE06 /* AppDelegate.swift in Sources */,
 				DEA854EF2867950D003BFE06 /* SceneDelegate.swift in Sources */,
 			);
